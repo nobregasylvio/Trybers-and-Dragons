@@ -8,11 +8,11 @@ export default abstract class Race {
   }
 
   public get name(): string {
-    return this.name;
+    return this._name;
   }
 
   public get dexterity(): number {
-    return this.dexterity;
+    return this._dexterity;
   }
 
   public static createdRacesInstances(): number {
