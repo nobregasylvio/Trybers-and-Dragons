@@ -6,7 +6,7 @@ export default class PVP extends Battle {
   private _playerTwo: Fighter;
 
   constructor(playerOne: Fighter, playerTwo: Fighter) {
-    super(playerOne)
+    super(playerOne);
     this._playerOne = playerOne;
     this._playerTwo = playerTwo;
   }
